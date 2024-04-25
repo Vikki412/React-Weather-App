@@ -1,14 +1,16 @@
 .App {
-  font-family: sans-serif;
+  font-family: poppins;
   text-align: center;
 }
 
 .Weather {
-  color: #fafdfb;
+  font-family: poppins;
+  color: #c9e8e0;
   text-align: center;
-  border: 1px solid #50a6a3;
-  margin: 20px auto;
-  background: #50a6a3;
+  border: 1px solid #40666a;
+  margin: 0 auto;
+  background: #40666a;
+
   border-radius: 5px;
   display: block;
   max-width: 600px;
@@ -17,23 +19,50 @@
 form {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
-  border-radius: 10px;
   margin-top: 20px;
-  padding: 20px;
+  padding: 30px;
+}
+
+form .search {
+  background-color: #c9e8e0;
+  border: 1px solid #c9e8e0;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+form .submit {
+  background-color: #f8a186;
+  border: 1px solid #f8a186;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: #c9e8e0;
+  margin-left: 10px;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 68px;
   line-height: 64px;
-  margin-left: 5px;
   font-weight: 400;
-  margin-left: 10px;
+}
+.Weather canvas {
+  margin-top: 10px;
 }
 
-.Weather canvas {
-  margin: 10px auto;
+.Weather .float-right {
+  text-align: right;
+  margin-right: 0;
+  padding: 0;
+}
+
+.Weather .float-left {
+  text-align: left;
+  margin-left: 0;
+  padding: 0;
+  margin-top: 35px;
 }
 
 .Weather .unit {
@@ -58,6 +87,8 @@ p {
 
 ul {
   padding-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -71,7 +102,12 @@ strong {
 }
 
 footer {
+  margin-top: 5px;
   text-align: center;
   font-size: small;
-  color: #849694;
+  color: #40666a;
+}
+
+footer a {
+  color: #f8a186;
 }
