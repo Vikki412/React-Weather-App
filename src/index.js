@@ -26,6 +26,15 @@ root.render(
         rel="noreferrer"
       >
         GitHub
+      </a>{" "}
+      and is hosted on{" "}
+      <a
+        href="https://react-weather-app-vikki-proki.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        Netlify{" "}
       </a>
     </footer>
   </React.StrictMode>
